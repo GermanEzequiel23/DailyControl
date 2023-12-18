@@ -1,0 +1,46 @@
+.content-container {
+    max-width: 75em; /* Cambié 1200px a em */
+    margin: 3em auto;
+    display: flex;
+    justify-content: space-between;
+    color: white;
+}
+
+.list-container {
+    padding: 2em; /* Cambié 20px a em */
+    margin: 2em 0;
+    border-radius: 0.8em; /* Cambié 8px a em */
+    box-shadow: 0 0 1em rgba(0, 0, 0, 0.1); /* Cambié 10px a em */
+}
+
+.gastos-section,
+.presupuestos-section {
+    width: 32em; 
+}
+
+.gastos-table {
+    border-collapse: collapse;
+    margin-top: 1em; /* Cambié 20px a em */
+    border: none;
+    box-shadow: 0 2px 9px rgb(0, 0, 3); 
+}
+
+thead {
+    background-color: green;
+}
+td {
+    background-color: white;
+    color: black;
+}
+
+tr:hover td{
+	background-color: #a4e3ae;
+}
+
+.gastos-table th,
+.gastos-table td {
+    padding: 0.5em; /* Cambié 10px a em */
+    width: 10em;
+    text-align: center;
+    border-bottom: 0.1em solid #ddd; /* Cambié 1px a em */
+}

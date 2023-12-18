@@ -1,0 +1,68 @@
+table {
+/*    width: 19%;*/
+ width: 15.5em;
+}
+thead {
+    height: 2em;
+    color: white;
+    background-color: darkgreen;  
+    box-shadow: 0 2px 9px rgb(0, 0, 3); 
+}
+
+td {
+    justify-content: center;
+    background-color: white
+}
+
+.menu {
+    display: none;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: #df9a9a;
+    padding: 20px;
+    border: 1px solid #ccc;
+    box-shadow: 0 3px 11px rgb(0, 0, 0);
+    z-index: 1000;
+    max-width: 20.8em;
+}
+
+.menu h1, p, input, button {
+    margin-bottom: 1em;
+}
+
+.menu button {
+    width: 39%;
+    height: 2.7em;
+    margin: 0.5em;
+    background-color: #a61429;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+    transition: 0.4s;
+}
+
+.menu button:hover {
+    background-color: #bf4a5b;
+}
+
+#presupuestosDiv p {
+    color: white;
+}
+
+.presupuesto-content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.btn_presupuestos {
+    margin: 0.23em;
+    padding: 0.32em;
+    min-width: 2em;
+}
+
+.text-content {
+    margin: 0.75em;
+}

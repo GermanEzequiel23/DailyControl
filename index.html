@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/landing.css">
+    <link rel="icon" href="icono.png">
+    <title>Landing</title>
+</head>
+<body >
+    <center><header class="hero">
+        <div class="hero-content">
+            <center><img src="css/DailyControl_logo.png" class="logo">
+            <p class="hero-description">Organiza tu vida diaria de manera fácil y eficiente.</p></center>
+            <button onclick="ventana()" class="btn_comenzar">Comenzar</button>
+        </div>
+    </header>
+    <section id="features" class="features">
+        <div class="feature-item">
+            <h1>Gestión de Tareas</h1>
+            <p>Registra y organiza tus tareas diarias con facilidad. Completa tareas y mantén un seguimiento de tus pendientes.</p>
+        </div>
+        <div class="feature-item">
+            <h1>Gestión de Gastos</h1>
+            <p>Lleva un registro de tus gastos diarios y administra tus finanzas de manera efectiva. Define presupuestos y controla lo que gastas.</p>
+        </div>
+    </section>
+
+    <footer class="footer">
+        <p>&copy; 2023 DailyControl. Todos los derechos reservados.</p>
+    </footer></center>
+    <script>
+        function ventana() {
+            window.location.href = 'panel.php';
+        }
+    </script>
+</body>
+</html>
